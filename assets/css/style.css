@@ -1,0 +1,410 @@
+body {
+  background-color: #fff;
+  font-family: "Trip Sans Med", sans-serif;
+}
+
+header {
+  margin-top: 20px;
+}
+
+.container {
+  width: 1160px;
+  margin: 0 auto;
+  padding: 0 24px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.icon {
+  width: 188px;
+}
+
+.search {
+  position: relative;
+}
+
+.search i {
+  position: absolute;
+  left: 15px;
+  top: 17px;
+  font-size: 20px;
+}
+
+.searchbar {
+  border-radius: 30px;
+  border: solid #dddbdb;
+  padding: 15px 60px;
+  width: 215px;
+}
+
+.menus {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.menus a {
+  margin: 0 5px;
+  text-decoration: none;
+  color: black;
+  padding: 10px 16px;
+  border-radius: 20px;
+}
+
+.menus .menu-icon {
+  background-color: white;
+  transition: 0.4s;
+}
+
+.menus .menu-icon:hover {
+  background-color: #ededed;
+}
+
+.menus a span {
+  font-size: 18px;
+  font-weight: 500;
+  margin-left: 3px;
+}
+
+.menus i {
+  font-size: 20px;
+}
+
+.connect {
+  background-color: black;
+  padding: 10px 16px;
+  border-radius: 20px;
+  transition: 0.4s;
+}
+
+.connect span {
+  color: white;
+}
+
+.connect:hover {
+  background-color: rgba(0, 0, 0, 0.39);
+}
+
+main {
+  margin-top: 45px;
+}
+
+.title {
+  font-size: 50px;
+  font-weight: 800;
+}
+
+.title span:nth-child(1) {
+  color: #ff5d5d;
+}
+
+.navigation {
+  margin: 25px 0 15px 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.main-nav {
+  position: sticky;
+  top: 0;
+  background-color: white;
+  z-index: 9999;
+}
+
+.navigation span {
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.navigation i {
+  margin-left: 5px;
+}
+
+.navigation a {
+  text-decoration: none;
+  color: black;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  width: 195px;
+  padding: 20px 16px;
+  border: 1px solid black;
+  border-radius: 10px;
+  transition: 0.4s;
+}
+
+.navigation a:hover {
+  background-color: black;
+  color: white;
+}
+
+.navigation a:nth-child(2),
+.navigation a:nth-child(3),
+.navigation a:nth-child(4),
+.navigation a:nth-child(5) {
+  margin: 0 5px;
+}
+
+.navigation a:nth-child(1) {
+  margin-right: 5px;
+}
+
+.navigation a:nth-child(6) {
+  margin-left: 5px;
+}
+
+.photos {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 15px;
+}
+
+.big-photo {
+  width: 654px;
+  height: 430px;
+  object-fit: cover;
+  margin-right: 2px;
+  flex: 2;
+}
+
+.small-photos {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.small-photos img {
+  width: 480px;
+  height: 214px;
+  object-fit: cover;
+}
+
+.small-photos img:nth-child(1) {
+  margin-bottom: 2px;
+}
+
+.browser {
+  padding: 15px 0;
+  font-size: 12px;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.direction span,
+.direction i {
+  margin-right: 5px;
+}
+
+.presentation {
+  margin: 30px 0;
+  flex: 3;
+}
+
+.presentation h2 {
+  margin-bottom: 20px;
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.presentation p {
+  font-family: "serif";
+  font-size: 21px;
+  padding-right: 70px;
+}
+
+.organiser {
+  flex: 2;
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+.texte {
+  background-color: #fe5d5d;
+  border-radius: 15px 15px 0 0;
+  padding: 30px 30px 50px 30px;
+}
+
+.texte h2 {
+  font-size: 28px;
+  font-weight: 700;
+  margin-right: 20px;
+  line-height: 30px;
+}
+
+.texte p {
+  margin-top: 15px;
+  margin-bottom: 40px;
+}
+
+.texte a {
+  text-decoration: none;
+  background-color: #333333;
+  color: white;
+  padding: 18px;
+  border-radius: 20px;
+  font-weight: 500;
+}
+
+.carte img {
+  border-radius: 0 0 15px 15px;
+  object-fit: cover;
+  width: 470px;
+  height: 150px;
+}
+
+h2 {
+  font-size: 28px;
+  line-height: 33px;
+  font-weight: 700;
+}
+
+h2.container {
+  margin-top: 50px;
+}
+
+.overview {
+  margin-top: 25px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.texte2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  flex: 1;
+  margin-right: 20px;
+  min-width: 250px;
+}
+
+.texte2 h3 {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 29px;
+}
+
+.texte2 p {
+  font-size: 21px;
+  margin-top: 25px;
+  font-family: serif;
+}
+
+.texte2 a {
+  margin-top: 20px;
+  color: black;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.carousel {
+  flex: 3;
+  display: flex;
+  overflow-x: scroll;
+}
+
+.carousel::-webkit-scrollbar {
+  display: none;
+}
+
+.carousel {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+.card2 {
+  max-width: 270px;
+  height: 100%;
+  flex-shrink: 0;
+  margin-right: 15px;
+  position: relative;
+}
+
+.card2 .portrait {
+  max-height: 204px;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.card2 .mini-logo {
+  position: absolute;
+  left: 5px;
+  top: 147px;
+}
+
+.white-circle {
+  border-radius: 50%;
+  background-color: white;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  top: 5px;
+  right: 5px;
+}
+
+.card2 .fa-heart {
+  font-size: 25px;
+  position: absolute;
+  top: 13px;
+  right: 12px;
+}
+
+.card2 h3 {
+  font-size: 18px;
+  font-weight: bolder;
+  padding: 10px 0;
+}
+
+.card2 .score {
+  font-size: 13px;
+  padding-bottom: 10px;
+}
+
+.card2 .score i {
+  color: #26b882;
+}
+
+footer {
+  background-color: #faf1ec;
+}
+
+/* ---------FOOTER----------- */
+
+footer {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0;
+  font-size: 20px;
+}
+
+footer img {
+  width: 50px;
+  margin-right: 20px;
+}
+
+footer a {
+  text-decoration: none;
+  color: black;
+  padding: 5px;
+  font-weight: 700;
+  transition: 0.4s ease;
+}
+
+footer a:hover {
+  text-decoration: none;
+  color: #26b882;
+  background-color: black;
+  border-radius: 10px;
+}
+
+section.container {
+  padding-bottom: 30px;
+}
