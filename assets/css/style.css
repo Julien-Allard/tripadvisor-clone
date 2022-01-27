@@ -126,7 +126,7 @@ main {
 
 .navigation span {
   font-weight: 500;
-  font-size: 16px;
+  font-size: 17px;
 }
 
 .navigation i {
@@ -547,6 +547,11 @@ section.container {
 
   .navigation a {
     min-width: 33%;
+    min-height: 16px;
+  }
+
+  .navigation span {
+    font-size: 18px;
   }
 
   .big-photo {
