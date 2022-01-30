@@ -15,6 +15,9 @@
       crossorigin="anonymous"
     ></script>
 
+    <!-- Ajout de l'écouteur pour ouvrir/fermer le modal -->
+    <script src="./js/script.js"></script>
+
     <title>Trip Advisor</title>
   </head>
 
@@ -41,7 +44,9 @@
           <a class="menu-icon" href=""
             ><i class="far fa-bell"></i><span>Alertes</span></a
           >
-          <a class="connect" href=""><span>Connectez-vous</span></a>
+          <a id="connect" class="connect" href=""
+            ><span>Connectez-vous</span></a
+          >
         </div>
       </div>
     </header>
@@ -530,5 +535,28 @@
         >
       </footer>
     </main>
+
+    <div id="modal" class="modal hidden">
+      <div class="container-form">
+        <div>
+          <i id="close-modal" class="fas fa-times"></i>
+          <p>Formulaire de contact</p>
+          <form class="contact-form">
+            <input type="text" id="firstname" placeholder="Prénom" />
+            <input type="text" id="lastname" placeholder="Nom" />
+            <input type="text" id="email" placeholder="Email" />
+            <textarea
+              name=""
+              id="comment"
+              cols="30"
+              rows="10"
+              placeholder="Votre message..."
+            ></textarea>
+            <input type="submit" id="submit" value="Envoyer le formulaire" />
+          </form>
+          <img src="./assets/img/Tripadvisor_logoset_solid_green.svg" alt="" />
+        </div>
+      </div>
+    </div>
   </body>
 </html>

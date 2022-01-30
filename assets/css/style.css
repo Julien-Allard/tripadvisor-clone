@@ -331,6 +331,7 @@ h2.container {
   flex: 3;
   display: flex;
   overflow-x: scroll;
+  height: 100%;
 }
 
 .carousel::-webkit-scrollbar {
@@ -344,7 +345,6 @@ h2.container {
 
 .card2 {
   max-width: 270px;
-  height: 100%;
   flex-shrink: 0;
   margin-right: 15px;
   position: relative;
@@ -432,6 +432,94 @@ footer a:hover {
 
 section.container {
   padding-bottom: 30px;
+}
+
+.modal {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  z-index: 10000;
+  background-color: rgba(0, 0, 0, 0.623);
+  display: flex;
+}
+
+.hidden {
+  display: none;
+}
+
+.container-form {
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+
+.container-form > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #fff;
+  border-radius: 15px;
+  padding: 40px 30px;
+  position: relative;
+}
+
+.container-form > div i {
+  position: absolute;
+  top: 15px;
+  right: 16px;
+  cursor: pointer;
+  color: #0000008a;
+  font-size: 20px;
+}
+
+.container-form p {
+  font-size: 25px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 70%;
+}
+
+.contact-form input,
+.contact-form textarea {
+  margin: 10px 0;
+  padding: 12px 20px;
+  font-family: "Trip Sans Med", sans-serif;
+  font-size: 17px;
+  width: 100%;
+  border: 1px solid black;
+}
+
+.contact-form textarea {
+  resize: none;
+}
+
+#submit {
+  background-color: #2bbd87;
+  border: none;
+  border-radius: 10px;
+  width: 100%;
+  cursor: pointer;
+  color: #fff;
+  font-size: 18px;
+  transition: 0.3s ease;
+}
+
+#submit:hover {
+  background-color: #34e0a19d;
+}
+
+.container-form > div img {
+  width: 15%;
+  margin-top: 20px;
 }
 
 /* ---------------MEDIA QUERIES----------------------- */
