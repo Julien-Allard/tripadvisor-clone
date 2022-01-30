@@ -11,6 +11,7 @@ header {
 header .fa-bars {
   display: none;
   font-size: 24px;
+  cursor: pointer;
 }
 
 .container {
@@ -57,7 +58,7 @@ header .fa-bars {
   margin: 0 5px;
   text-decoration: none;
   color: black;
-  padding: 15px 3px;
+  padding: 10px 3px;
   border-radius: 20px;
 }
 
@@ -324,6 +325,11 @@ h2.container {
   color: black;
   font-size: 18px;
   font-weight: 700;
+  transition: 0.2s;
+}
+
+.texte2 a:hover {
+  color: rgba(0, 0, 0, 0.548);
 }
 
 /* --------------------CAROUSEL--------------------- */
@@ -371,6 +377,11 @@ h2.container {
   position: absolute;
   top: 5px;
   right: 5px;
+  cursor: pointer;
+}
+
+.white-circle:hover + .fa-heart {
+  color: red;
 }
 
 .card2 .fa-heart {
@@ -378,6 +389,7 @@ h2.container {
   position: absolute;
   top: 13px;
   right: 12px;
+  pointer-events: none;
 }
 
 .card2 h3 {
